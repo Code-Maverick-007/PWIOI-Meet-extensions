@@ -1,0 +1,67 @@
+═══════════════════════════════════════════════════════════
+  PW MEET ENGAGE - Chrome Extension Installation
+═══════════════════════════════════════════════════════════
+
+🚀 QUICK INSTALLATION (5 minutes)
+
+Step 1: Build the Extension
+────────────────────────────
+Open Terminal and run:
+
+  cd /Users/omkarshewale/Desktop/pwioi-meet
+  npm install
+  npm run build
+
+Step 2: Load in Chrome
+──────────────────────
+1. Open Chrome
+2. Go to: chrome://extensions/
+3. Turn ON "Developer mode" (top-right toggle)
+4. Click "Load unpacked"
+5. Navigate to: /Users/omkarshewale/Desktop/pwioi-meet/dist
+6. Click "Select"
+7. Done! ✓
+
+Step 3: Test It
+───────────────
+1. Open Google Meet: https://meet.google.com/
+2. Click the PW Meet Engage icon
+3. Click "Start New Session"
+4. Create a test poll
+5. Open an incognito window with the same Meet
+6. Watch the poll appear!
+
+═══════════════════════════════════════════════════════════
+
+📚 DOCUMENTATION
+
+• QUICKSTART.md    - Quick start guide
+• README.md        - Full documentation
+• PROJECT_SUMMARY.md - Project overview
+
+═══════════════════════════════════════════════════════════
+
+✅ REQUIREMENTS
+
+• Node.js 16+
+• npm or yarn
+• Google Chrome browser
+• Active Google Meet session
+
+═══════════════════════════════════════════════════════════
+
+🆘 TROUBLESHOOTING
+
+Build Failed?
+  rm -rf node_modules dist
+  npm install
+  npm run build
+
+Extension Not Working?
+  • Ensure you're on meet.google.com
+  • Check Developer mode is ON
+  • Try reloading the extension
+
+═══════════════════════════════════════════════════════════
+
+Happy Teaching! 🎓
